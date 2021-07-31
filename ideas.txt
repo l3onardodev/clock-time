@@ -1,0 +1,4 @@
+- wallpaper mudar de acordo com o horario (dia, noite, tarde)
+- adicionar animation de transition nisso
+- adicionar aba "timer"
+- colocar mais opções de fuso horario

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Project</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="bg-container-timer">
+            <div class="bg-container-clock">
+                <div class="overlay">
+                    <div class="choose-main-content">
+                        <button class="choose-main-button choose-main-button-clock">Clock</button>
+                        <button class="choose-main-button choose-main-button-timer">Timer</button>
+                    </div>
+                    <div class="choose-country-container-block">
+                        <div class="choose-country-container-block-title">
+                            <h1 class="choose-country-container-block-title-content">Select your country.</h1>
+                        </div>
+                        <div class="choose-country-container-block-select">
+                            <select class="choose-country-select-content">
+                                <option name="vazio" selected disabled></option>
+                                <option>Afghanistan</option>
+                                <option>Albania</option>
+                                <option>Algeria</option>
+                                <option>Angola</option>
+                                <option>Antigua and Barbuda</option>
+                                <option>Argentina</option>
+                                <option>Armenia</option>
+                                <option>Australia</option>
+                                <option>Austria</option>
+                                <option>Austrian Empire</option>
+                                <option>Azerbaijan</option>
+                                <option>Baden</option>
+                                <option>Bahamas</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="clock-container-block">
+                        <div class="clock-container-label">
+                            <h2 class="clock-container-label-content">TESTE</h2>
+                        </div>
+                        <div class="clock-container-label-time">
+                            <p class="clock-label-time-hours clock-label-time">00</p>
+                            <p class="clock-label-time">:</p>
+                            <p class="clock-label-time-minutes clock-label-time">00</p>
+                            <p class="clock-label-time">:</p>
+                            <p class="clock-label-time-seconds clock-label-time">00</p>
+                        </div>
+                    </div>
+                    <div class="timer-choose-time-container">
+                        <div class="timer-choose-time-modal">
+                            <div class="timer-choose-label">
+                                <h3>Write de time desired.</h3>
+                            </div>
+                            <div class="timer-choose-form">
+                                <form autocomplete="off" class="timer-choose-form-tag">
+                                    <input type="text" class="timer-choose-form-input-hours" value="00">
+                                    <input type="text" class="timer-choose-form-input-minutes" value="00">
+                                    <input type="text" class="timer-choose-form-input-seconds" value="00">
+                                </form>
+                            </div>
+                            <div class="timer-choose-button">
+                                <button class="timer-choose-button-tag">START</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./dist/bundle.js"></script>
+    </body>
+</html>
