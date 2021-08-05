@@ -6,9 +6,9 @@ So, With this project you can select a country and get the current time of that,
 
 Probably, I'm gonna make a lot of changes in code (i.e a lot of refactoring) because, actually, I am not happy with this early code state.
 
-###UPDATES
+### UPDATES
 
-##05/08/2021
+## 05/08/2021
 I made some really cool stuff in this day. I finally finished the "timer" function made "manually" with javascript vanilla (i.e without JS Date or other library). I also made some improvements in the UI, even though I'm still not happy with it. (I'm gonna work on it).
 Also, I discovered how to stop a setInteval(). (This is gonna help me so much in future projects).
 
